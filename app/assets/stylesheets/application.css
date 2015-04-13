@@ -14,20 +14,6 @@
  *= require_self
  */
 
-@font-face {
-  font-family:"Guardian-EgypTT";
-  font-style: normal;
-  font-weight: 400;
-  src: url("assets/fonts/Guardian-EgypTT-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family:"Guardian-EgypTT";
-  font-style: normal;
-  font-weight: 500;
-  src: url("assets/fonts/Guardian-EgypTT-Medium.woff") format("woff");
-}
-
 
 body {
   background-color: #efefeb;
@@ -58,12 +44,16 @@ body {
 .browse li {
   color: #666;
   display: inline-block;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.2;
   margin: 0;
   padding: 10px 12px;
 }
 
+.browse li:last-child{
+	font-size: 10px;
+	text-align: top;
+}
 
 /* Header */
 .header {
