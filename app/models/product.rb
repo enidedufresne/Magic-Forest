@@ -8,7 +8,4 @@ class Product < ActiveRecord::Base
 		sprintf("%.2f", price_in_dollars)
 	end
 
-
-
-
 end
