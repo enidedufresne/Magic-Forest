@@ -52,7 +52,6 @@ body {
 
 .browse li:last-child{
 	font-size: 10px;
-	text-align: top;
 }
 
 /* Header */
@@ -71,10 +70,7 @@ body {
 }
 
 .account li {
-  display: inline-block;
-  font-size: 14px;
-  height: 33px;
-  margin-top: 33px;
+  display: inline;
   margin-right: 14px;
 }
 
@@ -91,40 +87,7 @@ body {
   border-left: 1px solid rgba(0,0,0,0.1);
   color: #888;
   margin-left: 10px;
-  margin-top: 13px;
   padding-left: 20px;
-}
-
-/* Trending */
-.trending {
-  padding: 60px;
-}
-
-.trending h2 {
-  text-shadow: 0 2px 1px rgba(255,255,255,.8);
-  font-family: 'Guardian-EgypTT', Georgia, serif;
-  color: #333;
-  font-size: 32px;
-  font-weight: 500;
-  margin: 0;
-  text-align: center;
-}
-
-.trending p {
-  color: #888;
-  font-family: "Guardian-EgypTT", Georgia, serif;
-  font-size: 18px;
-  margin-bottom: 10px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.listing-title {
-  color: #666;
-}
-
-.listing-price {
-  color: #78c042;
 }
 
 
